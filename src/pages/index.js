@@ -106,7 +106,7 @@ export default (() => {
 				margin="20px auto 30px 0px"
 				text-align="left"
 				display="flex"
-				color="--dark"
+				color="--indigo"
 				cursor="default"
 			>
 				Bouquet
