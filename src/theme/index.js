@@ -25,7 +25,7 @@ export default {
 		"darkL1": "#0E1317",
 		"darkL2": "#191E22",
 		"grey": "#b4b9c5",
-		"greyD1": "#637897",
+		"greyD1": "#6378в97",
 		"greyD2": "#586D8E",
 		"light": "#f7f4f9",
 		"lightD1": "#EDF2F6",
@@ -214,5 +214,5 @@ export default {
 			}
 		}
 	},
-	"version": 11
+	"version": 17
 }

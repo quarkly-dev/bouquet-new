@@ -1,6 +1,7 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Text, Box, Button } from "@quarkly/widgets";
+import { Helmet } from "react-helmet";
 import { Override, StackItem, Menu, SocialMedia, Stack, Section, GoogleMap } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
@@ -66,6 +67,8 @@ export default (() => {
 						<Override slot="item-blog" border-width="0px 1px 1px 0px" />
 						<Override slot="item-active" color="--purple" />
 						<Override slot="link-active" color="inherit" hover-color="--dark" />
+						<Override slot="link-404" display="none" />
+						<Override slot="item-404" display="none" />
 					</Menu>
 				</StackItem>
 				<StackItem
